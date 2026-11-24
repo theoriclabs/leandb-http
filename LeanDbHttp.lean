@@ -14,7 +14,7 @@ private def endpoint (base : URI) (name : String) : URI :=
   else path
   { base with
     path := path.append name
-    query := .empty
+    query := none
     fragment := none }
 
 private def transportError (e : LeanHttp.Error) : DbError :=

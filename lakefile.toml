@@ -1,16 +1,16 @@
 name = "leandb_http"
-version = "0.1.0"
+version = "0.1.1"
 defaultTargets = ["LeanDbHttp"]
 
 [[require]]
 name = "leandb"
 git = "https://github.com/theoriclabs/LeanDB"
-rev = "5eb6bffd53603bf35eac51a0601f756ba9218c33"
+rev = "v0.7.1"
 
 [[require]]
 name = "leanhttp"
 git = "https://github.com/theoriclabs/leanhttp"
-rev = "bf51a4c6718f1aca8eb340dc35e8e2463a005760"
+rev = "v0.8.0"
 
 [[lean_lib]]
 name = "LeanDbHttp"
