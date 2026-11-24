@@ -1,5 +1,8 @@
 # LeanDB HTTP client
 
+Starting with LeanDB v0.8.0, install the HTTP client from the
+[opt-in package in the LeanDB repository](https://github.com/theoriclabs/LeanDB/tree/v0.8.0/packages/leandb-http).
+
 Optional HTTP transport for `LeanDb.Client`, backed by `leanhttp`. The LeanDB
 engine itself remains free of an HTTP client or libcurl dependency.
 
